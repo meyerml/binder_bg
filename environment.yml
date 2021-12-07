@@ -1,6 +1,8 @@
 name: bgkraemer_clone
 channels:
   - defaults
+  - conda-forge
+   -conda
 dependencies:
   - pytorch/noarch::cpuonly==1.0=0
   - conda-forge/linux-64::_libgcc_mutex==0.1=conda_forge
